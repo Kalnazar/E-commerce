@@ -5,10 +5,10 @@ import {
   FormGroup,
   Validators,
 } from '@angular/forms';
-import { AuthService } from '../../services/auth/auth.service';
+import { AuthService } from '../services/auth/auth.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
-import { UserStorageService } from '../../services/storage/user-storage.service';
+import { UserStorageService } from '../services/storage/user-storage.service';
 
 @Component({
   selector: 'app-login',
